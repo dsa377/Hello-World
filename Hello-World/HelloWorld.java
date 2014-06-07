@@ -5,10 +5,18 @@ import java.io.*;
  * @author Daniel Angel 
  * @version 1.0
  */
+
 class HelloWorld
 {
-    public static void main(String[] args)
+    
+    public void go()
     {
         System.out.println("Hello, world!");
+    }
+    
+    public static void main(String[] args)
+    {
+        HelloWorld hi = new HelloWorld();
+        hi.go();
     }
 }
